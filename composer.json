@@ -1,0 +1,20 @@
+{
+    "name": "tanya/privat-bank",
+    "description": "My first Composer project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tatyana Yanova",
+            "email": "tanyatelephon@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PrivatBank\\": ["src"]
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}
